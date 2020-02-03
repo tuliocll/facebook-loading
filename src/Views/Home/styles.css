@@ -111,6 +111,7 @@ nav {
   align-items: center;
   flex-direction: column;
   margin-bottom: 100px;
+  padding: 10px;
 }
 
 .post {
@@ -157,7 +158,7 @@ nav {
 
 .actions {
   display: flex;
-  width: 25%;
+  width: 20vh;
   justify-content: space-around;
   margin-left: -5px;
   margin-top: 10px;
@@ -200,4 +201,10 @@ nav {
   height: 25px;
   border: none;
   padding-left: 10px;
+}
+
+@media (min-width: 1000px) {
+  .actions {
+    width: 10vw;
+  }
 }
