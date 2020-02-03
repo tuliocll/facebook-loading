@@ -47,10 +47,6 @@ export default function Home() {
               <p>Whats on your mind ?</p>
             </div>
           </div>
-<<<<<<< Updated upstream
-
-          <List />
-=======
           <div className="posts">
             {loading && (
               <>
@@ -62,7 +58,6 @@ export default function Home() {
 
             <List isLoading={value => setLoading(value)} />
           </div>
->>>>>>> Stashed changes
         </div>
         <div class="right-menu"></div>
       </div>
