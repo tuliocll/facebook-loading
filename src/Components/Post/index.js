@@ -1,18 +1,33 @@
 import React from "react";
 
+<<<<<<< Updated upstream
 export default function Post({ data }) {
   const imageUrl = `https://api.adorable.io/avatars/285/${data.name}@adorable.png`;
 
+=======
+// import { Container } from './styles';
+
+export default function Post({ dados }) {
+  const imageUrl = `https://api.adorable.io/avatars/285/${dados.name}@adorable.png`;
+>>>>>>> Stashed changes
   return (
     <div class="post">
       <div class="post-header">
         <img class="post-profile-img" src={imageUrl} />
         <div class="name-container">
+<<<<<<< Updated upstream
           <a href="#">{data.name}</a>
           <small>1 min</small>
         </div>
       </div>
       <p>{data.content}</p>
+=======
+          <a href="#">{dados.name}</a>
+          <small>1 min</small>
+        </div>
+      </div>
+      <p>{dados.content}</p>
+>>>>>>> Stashed changes
       <div class="actions">
         <a href="#">Like</a>
         <a href="#">Comment</a>

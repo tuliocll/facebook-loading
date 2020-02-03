@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 import List from "../../Components/List";
 
 import "./styles.css";
 import logo from "../../Assets/Images/logo.png";
+import List from "../../Components/List";
+import PostLoading from "../../Components/PostLoading";
 
 export default function Home() {
+  const [loading, setLoading] = useState(true);
+
   return (
     <div class="container">
       <nav>
@@ -43,8 +47,22 @@ export default function Home() {
               <p>Whats on your mind ?</p>
             </div>
           </div>
+<<<<<<< Updated upstream
 
           <List />
+=======
+          <div className="posts">
+            {loading && (
+              <>
+                <PostLoading />
+                <PostLoading />
+                <PostLoading />
+              </>
+            )}
+
+            <List isLoading={value => setLoading(value)} />
+          </div>
+>>>>>>> Stashed changes
         </div>
         <div class="right-menu"></div>
       </div>
