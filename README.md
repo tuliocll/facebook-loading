@@ -12,11 +12,11 @@
 
 </div>
 
-## Sobre
+## 📖Sobre
 
 Este repositorio contem o projeto final e o projeto base para o tutorial do Content Loading e Scroll Infinito para ReactJS.
 
-### Branchs:
+### 🔀Branchs:
 
 Nome da Branch  | Descrição
 ------------- | -------------
@@ -25,7 +25,7 @@ final  | Tutorial completo, todos os arquivos configurados e funcionando.
 
 
 
-## Iniciando
+## 👨🏿‍💻Iniciando
 
 Clonar o repositorio:
 
@@ -41,7 +41,7 @@ ou
 npm install
 ```
 
-## Siga o(s) vídeo(s);
+## 🎦Siga o(s) vídeo(s);
 
 Tutorial  | Link
 ------------- | -------------
@@ -50,4 +50,4 @@ ReactJS ⚛️ - Content Loading Animado  | https://youtu.be/uUaST-BEKBQ
 
 
 
-### End
+### 🙅🏿‍♂️End
